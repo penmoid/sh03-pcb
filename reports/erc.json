@@ -1,0 +1,53 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-09-18T17:10:04",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning",
+        "exclusion"
+    ],
+    "kicad_version": "10.0.5",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/1d56af5b-226f-4df5-815c-c1186e6e0dd4",
+            "violations": [
+                {
+                    "description": "Symbol 'ESP32-S3-DevKitC-1-Socket' doesn't match copy in library 'sh03'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [ESP32-S3-DevKitC-1-Socket]",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 0.6223
+                            },
+                            "uuid": "056937bc-d167-400d-840d-f72257c68818"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_mismatch"
+                }
+            ]
+        }
+    ],
+    "source": "sh03-controller.kicad_sch"
+}

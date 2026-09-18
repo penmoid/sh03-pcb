@@ -1,0 +1,15 @@
+build/
+__pycache__/
+*.pyc
+*.kicad_prl
+*-backups/
+*.lck
+*.bak
+*.determinism-backup
+.konnect/
+.claude/
+.codex/
+.env
+.env.*
+!.env.example
+.DS_Store

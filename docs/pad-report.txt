@@ -1,0 +1,143 @@
+ref    pin    net                     pad_x_mm  pad_y_mm  pad_w_mm  pad_h_mm shape      type layer   drill_mm
+-------------------------------------------------------------------------------------------------------------
+C1     1      /+5V                     113.793    42.000     2.245     2.590 roundrect  SMD  B.Cu            
+C1     2      /GND                     120.207    42.000     2.245     2.590 roundrect  SMD  B.Cu            
+C2     1      /+5V                     114.050    78.000     1.000     1.450 roundrect  SMD  B.Cu            
+C2     2      /GND                     115.950    78.000     1.000     1.450 roundrect  SMD  B.Cu            
+C3     1      /+5V                     109.050    42.000     1.000     1.450 roundrect  SMD  B.Cu            
+C3     2      /GND                     110.950    42.000     1.000     1.450 roundrect  SMD  B.Cu            
+H1            <no net>                  40.000    37.000     3.700     3.700 circle     TH   *          3.200
+H2            <no net>                 128.000    37.000     3.700     3.700 circle     TH   *          3.200
+H3            <no net>                  40.000    85.000     3.700     3.700 circle     TH   *          3.200
+H4            <no net>                 128.000    85.000     3.700     3.700 circle     TH   *          3.200
+J1     1      /TH2                      49.350    65.500     0.700     1.800 roundrect  SMD  B.Cu            
+J1     2      /TH1                      49.350    66.750     0.700     1.800 roundrect  SMD  B.Cu            
+J1     3      /MC_HOT2                  49.350    68.000     0.700     1.800 roundrect  SMD  B.Cu            
+J1     4      /MC_HOT1                  49.350    69.250     0.700     1.800 roundrect  SMD  B.Cu            
+J1     5      /MC_K_FAN3_FG             49.350    70.500     0.700     1.800 roundrect  SMD  B.Cu            
+J1     6      /MC_K_FAN3                49.350    71.750     0.700     1.800 roundrect  SMD  B.Cu            
+J1     7      /MC_K_FAN2_FG             49.350    73.000     0.700     1.800 roundrect  SMD  B.Cu            
+J1     8      /MC_K_FAN2                49.350    74.250     0.700     1.800 roundrect  SMD  B.Cu            
+J1     9      /MC_K_FAN1_FG             49.350    75.500     0.700     1.800 roundrect  SMD  B.Cu            
+J1     10     /MC_K_FAN1                49.350    76.750     0.700     1.800 roundrect  SMD  B.Cu            
+J1     11     /MC_HUM_SDA               49.350    78.000     0.700     1.800 roundrect  SMD  B.Cu            
+J1     12     /MC_HUM_SCL               49.350    79.250     0.700     1.800 roundrect  SMD  B.Cu            
+J1     13     /+5V                      49.350    80.500     0.700     1.800 roundrect  SMD  B.Cu            
+J1     14     /GND                      49.350    81.750     0.700     1.800 roundrect  SMD  B.Cu            
+J1     MP     <no net>                  45.930    63.660     1.020     2.940 roundrect  SMD  B.Cu            
+J1     MP     <no net>                  45.930    83.590     1.020     2.940 roundrect  SMD  B.Cu            
+J2     1      /MC_XQD2                  49.350    40.875     0.700     1.800 roundrect  SMD  B.Cu            
+J2     2      /MC_XQD1                  49.350    42.125     0.700     1.800 roundrect  SMD  B.Cu            
+J2     3      /MC_HALLD                 49.350    43.375     0.700     1.800 roundrect  SMD  B.Cu            
+J2     4      /MC_XQC2                  49.350    44.625     0.700     1.800 roundrect  SMD  B.Cu            
+J2     5      /MC_XQC1                  49.350    45.875     0.700     1.800 roundrect  SMD  B.Cu            
+J2     6      /MC_HALLC                 49.350    47.125     0.700     1.800 roundrect  SMD  B.Cu            
+J2     7      /MC_XQB2                  49.350    48.375     0.700     1.800 roundrect  SMD  B.Cu            
+J2     8      /MC_XQB1                  49.350    49.625     0.700     1.800 roundrect  SMD  B.Cu            
+J2     9      /MC_HALLB                 49.350    50.875     0.700     1.800 roundrect  SMD  B.Cu            
+J2     10     /MC_XQA2                  49.350    52.125     0.700     1.800 roundrect  SMD  B.Cu            
+J2     11     /MC_XQA1                  49.350    53.375     0.700     1.800 roundrect  SMD  B.Cu            
+J2     12     /MC_HALLA                 49.350    54.625     0.700     1.800 roundrect  SMD  B.Cu            
+J2     13     unconnected-(J2-Pin_13-Pad13)    49.350    55.875     0.700     1.800 roundrect  SMD  B.Cu            
+J2     14     /GND                      49.350    57.125     0.700     1.800 roundrect  SMD  B.Cu            
+J2     15     /GND                      49.350    58.375     0.700     1.800 roundrect  SMD  B.Cu            
+J2     MP     <no net>                  45.930    39.035     1.020     2.940 roundrect  SMD  B.Cu            
+J2     MP     <no net>                  45.930    60.215     1.020     2.940 roundrect  SMD  B.Cu            
+J3     1      /+5V                      62.000    85.200     1.700     1.950 roundrect  TH   *          0.950
+J3     2      /GND                      59.500    85.200     1.700     1.950 oval       TH   *          0.950
+J3     3      /MCU_TX                   57.000    85.200     1.700     1.950 oval       TH   *          0.950
+J3     4      /MCU_RX                   54.500    85.200     1.700     1.950 oval       TH   *          0.950
+R1     1      /+3V3                     75.950    42.087     1.025     1.400 roundrect  SMD  B.Cu            
+R1     2      /TH2                      75.950    43.913     1.025     1.400 roundrect  SMD  B.Cu            
+R2     1      /+3V3                     78.490    42.087     1.025     1.400 roundrect  SMD  B.Cu            
+R2     2      /TH1                      78.490    43.913     1.025     1.400 roundrect  SMD  B.Cu            
+R3     1      /MC_HOT2                 108.970    77.088     1.025     1.400 roundrect  SMD  B.Cu            
+R3     2      /GND                     108.970    78.912     1.025     1.400 roundrect  SMD  B.Cu            
+R4     1      /MC_HOT1                 111.510    77.088     1.025     1.400 roundrect  SMD  B.Cu            
+R4     2      /GND                     111.510    78.912     1.025     1.400 roundrect  SMD  B.Cu            
+U1     1      /+3V3                     68.330    72.530     1.700     1.700 rect       TH   *          1.000
+U1     2      /+3V3                     70.870    72.530     1.700     1.700 circle     TH   *          1.000
+U1     3      unconnected-(U1-RST-Pad3)    73.410    72.530     1.700     1.700 circle     TH   *          1.000
+U1     4      /MC_HALLA                 75.950    72.530     1.700     1.700 circle     TH   *          1.000
+U1     5      /MC_XQD1                  78.490    72.530     1.700     1.700 circle     TH   *          1.000
+U1     6      /MC_HALLD                 81.030    72.530     1.700     1.700 circle     TH   *          1.000
+U1     7      /MC_HALLC                 83.570    72.530     1.700     1.700 circle     TH   *          1.000
+U1     8      /MC_XQC1                  86.110    72.530     1.700     1.700 circle     TH   *          1.000
+U1     9      /MCU_TX                   88.650    72.530     1.700     1.700 circle     TH   *          1.000
+U1     10     /MC_XQC2                  91.190    72.530     1.700     1.700 circle     TH   *          1.000
+U1     11     /MC_XQB2                  93.730    72.530     1.700     1.700 circle     TH   *          1.000
+U1     12     /MC_HUM_SDA               96.270    72.530     1.700     1.700 circle     TH   *          1.000
+U1     13     /MC_XQB1                  98.810    72.530     1.700     1.700 circle     TH   *          1.000
+U1     14     unconnected-(U1-GPIO46-Pad14)   101.350    72.530     1.700     1.700 circle     TH   *          1.000
+U1     15     /MC_HUM_SCL              103.890    72.530     1.700     1.700 circle     TH   *          1.000
+U1     16     /MC_HALLB                106.430    72.530     1.700     1.700 circle     TH   *          1.000
+U1     17     /MC_HOT2                 108.970    72.530     1.700     1.700 circle     TH   *          1.000
+U1     18     /MC_HOT1                 111.510    72.530     1.700     1.700 circle     TH   *          1.000
+U1     19     /MC_K_FAN1               114.050    72.530     1.700     1.700 circle     TH   *          1.000
+U1     20     /MC_K_FAN2               116.590    72.530     1.700     1.700 circle     TH   *          1.000
+U1     21     /+5V                     119.130    72.530     1.700     1.700 circle     TH   *          1.000
+U1     22     /GND                     121.670    72.530     1.700     1.700 circle     TH   *          1.000
+U1     23     /GND                      68.330    49.670     1.700     1.700 circle     TH   *          1.000
+U1     24     unconnected-(U1-TX_GPIO43-Pad24)    70.870    49.670     1.700     1.700 circle     TH   *          1.000
+U1     25     unconnected-(U1-RX_GPIO44-Pad25)    73.410    49.670     1.700     1.700 circle     TH   *          1.000
+U1     26     /TH2                      75.950    49.670     1.700     1.700 circle     TH   *          1.000
+U1     27     /TH1                      78.490    49.670     1.700     1.700 circle     TH   *          1.000
+U1     28     /MC_XQD2                  81.030    49.670     1.700     1.700 circle     TH   *          1.000
+U1     29     /MC_XQA1                  83.570    49.670     1.700     1.700 circle     TH   *          1.000
+U1     30     /MC_XQA2                  86.110    49.670     1.700     1.700 circle     TH   *          1.000
+U1     31     /MCU_RX                   88.650    49.670     1.700     1.700 circle     TH   *          1.000
+U1     32     /MC_K_FAN3_FG             91.190    49.670     1.700     1.700 circle     TH   *          1.000
+U1     33     unconnected-(U1-GPIO37-Pad33)    93.730    49.670     1.700     1.700 circle     TH   *          1.000
+U1     34     unconnected-(U1-GPIO36-Pad34)    96.270    49.670     1.700     1.700 circle     TH   *          1.000
+U1     35     unconnected-(U1-GPIO35-Pad35)    98.810    49.670     1.700     1.700 circle     TH   *          1.000
+U1     36     unconnected-(U1-GPIO0-Pad36)   101.350    49.670     1.700     1.700 circle     TH   *          1.000
+U1     37     unconnected-(U1-GPIO45-Pad37)   103.890    49.670     1.700     1.700 circle     TH   *          1.000
+U1     38     /MC_K_FAN2_FG            106.430    49.670     1.700     1.700 circle     TH   *          1.000
+U1     39     /MC_K_FAN1_FG            108.970    49.670     1.700     1.700 circle     TH   *          1.000
+U1     40     /MC_K_FAN3               111.510    49.670     1.700     1.700 circle     TH   *          1.000
+U1     41     unconnected-(U1-GPIO20-Pad41)   114.050    49.670     1.700     1.700 circle     TH   *          1.000
+U1     42     unconnected-(U1-GPIO19-Pad42)   116.590    49.670     1.700     1.700 circle     TH   *          1.000
+U1     43     /GND                     119.130    49.670     1.700     1.700 circle     TH   *          1.000
+U1     44     /GND                     121.670    49.670     1.700     1.700 circle     TH   *          1.000
+
+=== Summary 1: nets with more than one pad ===
+/+3V3: R1.1 (75.950, 42.087) -> R2.1 (78.490, 42.087) -> U1.1 (68.330, 72.530) -> U1.2 (70.870, 72.530)
+/+5V: C1.1 (113.793, 42.000) -> C2.1 (114.050, 78.000) -> C3.1 (109.050, 42.000) -> J1.13 (49.350, 80.500) -> J3.1 (62.000, 85.200) -> U1.21 (119.130, 72.530)
+/GND: C1.2 (120.207, 42.000) -> C2.2 (115.950, 78.000) -> C3.2 (110.950, 42.000) -> J1.14 (49.350, 81.750) -> J2.14 (49.350, 57.125) -> J2.15 (49.350, 58.375) -> J3.2 (59.500, 85.200) -> R3.2 (108.970, 78.912) -> R4.2 (111.510, 78.912) -> U1.22 (121.670, 72.530) -> U1.23 (68.330, 49.670) -> U1.43 (119.130, 49.670) -> U1.44 (121.670, 49.670)
+/MCU_RX: J3.4 (54.500, 85.200) -> U1.31 (88.650, 49.670)
+/MCU_TX: J3.3 (57.000, 85.200) -> U1.9 (88.650, 72.530)
+/MC_HALLA: J2.12 (49.350, 54.625) -> U1.4 (75.950, 72.530)
+/MC_HALLB: J2.9 (49.350, 50.875) -> U1.16 (106.430, 72.530)
+/MC_HALLC: J2.6 (49.350, 47.125) -> U1.7 (83.570, 72.530)
+/MC_HALLD: J2.3 (49.350, 43.375) -> U1.6 (81.030, 72.530)
+/MC_HOT1: J1.4 (49.350, 69.250) -> R4.1 (111.510, 77.088) -> U1.18 (111.510, 72.530)
+/MC_HOT2: J1.3 (49.350, 68.000) -> R3.1 (108.970, 77.088) -> U1.17 (108.970, 72.530)
+/MC_HUM_SCL: J1.12 (49.350, 79.250) -> U1.15 (103.890, 72.530)
+/MC_HUM_SDA: J1.11 (49.350, 78.000) -> U1.12 (96.270, 72.530)
+/MC_K_FAN1: J1.10 (49.350, 76.750) -> U1.19 (114.050, 72.530)
+/MC_K_FAN1_FG: J1.9 (49.350, 75.500) -> U1.39 (108.970, 49.670)
+/MC_K_FAN2: J1.8 (49.350, 74.250) -> U1.20 (116.590, 72.530)
+/MC_K_FAN2_FG: J1.7 (49.350, 73.000) -> U1.38 (106.430, 49.670)
+/MC_K_FAN3: J1.6 (49.350, 71.750) -> U1.40 (111.510, 49.670)
+/MC_K_FAN3_FG: J1.5 (49.350, 70.500) -> U1.32 (91.190, 49.670)
+/MC_XQA1: J2.11 (49.350, 53.375) -> U1.29 (83.570, 49.670)
+/MC_XQA2: J2.10 (49.350, 52.125) -> U1.30 (86.110, 49.670)
+/MC_XQB1: J2.8 (49.350, 49.625) -> U1.13 (98.810, 72.530)
+/MC_XQB2: J2.7 (49.350, 48.375) -> U1.11 (93.730, 72.530)
+/MC_XQC1: J2.5 (49.350, 45.875) -> U1.8 (86.110, 72.530)
+/MC_XQC2: J2.4 (49.350, 44.625) -> U1.10 (91.190, 72.530)
+/MC_XQD1: J2.2 (49.350, 42.125) -> U1.5 (78.490, 72.530)
+/MC_XQD2: J2.1 (49.350, 40.875) -> U1.28 (81.030, 49.670)
+/TH1: J1.2 (49.350, 66.750) -> R2.2 (78.490, 43.913) -> U1.27 (78.490, 49.670)
+/TH2: J1.1 (49.350, 65.500) -> R1.2 (75.950, 43.913) -> U1.26 (75.950, 49.670)
+
+Single-pad nets: unconnected-(J2-Pin_13-Pad13), unconnected-(U1-GPIO0-Pad36), unconnected-(U1-GPIO19-Pad42), unconnected-(U1-GPIO20-Pad41), unconnected-(U1-GPIO35-Pad35), unconnected-(U1-GPIO36-Pad34), unconnected-(U1-GPIO37-Pad33), unconnected-(U1-GPIO45-Pad37), unconnected-(U1-GPIO46-Pad14), unconnected-(U1-RST-Pad3), unconnected-(U1-RX_GPIO44-Pad25), unconnected-(U1-TX_GPIO43-Pad24)
+Pads with no net assigned (not a net -- not electrically joined to each other): H1. (40.000, 37.000), H2. (128.000, 37.000), H3. (40.000, 85.000), H4. (128.000, 85.000), J1.MP (45.930, 63.660), J1.MP (45.930, 83.590), J2.MP (45.930, 39.035), J2.MP (45.930, 60.215)
+
+=== Summary 2: U1 pad rows ===
+row y=49.670mm: 22 pads, first x=68.330mm (U1.23), last x=121.670mm (U1.44), pitch(es)=[2.54]
+row y=72.530mm: 22 pads, first x=68.330mm (U1.1), last x=121.670mm (U1.22), pitch(es)=[2.54]
+
+=== Summary 3: open front-side routing channel between U1's pad rows ===
+channel rectangle: x=[68.330, 121.670]mm, y=[50.520, 71.680]mm (height=21.160mm)
+occupants already in that rectangle: (none -- channel is clear)

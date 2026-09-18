@@ -1,0 +1,3 @@
+# KiCad sources are text; keep LF so diffs stay clean across Linux/Windows
+* text=auto eol=lf
+*.pdf binary
